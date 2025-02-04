@@ -3,15 +3,25 @@ Este é um projeto da Fase 2 da Especialização em Arquitetura e Desenvolviment
 Uma API REST de solução de parquímetros. A aplicação foi desenvolvida em Java 17, utilizando 
 Spring Boot, maven, um banco de dados H2 para testes e geração de documento através do Swagger.
 
-## Histórico do Projeto  
-Este projeto foi originalmente desenvolvido no GitHub da Gabriela Ferraz.  
-Para acessar o histórico de commits original, visite o repositório:  
-🔗 [Repositório Original](https://github.com/GabiFerraz/Project-ParkingMeter)
-
 ## Descrição do Projeto
 O objetivo desta API é fornecer um sistema que deve ser responsável por gerenciar o tempo de 
 estacionamento dos veículos, calcular os valores devido ao uso dos parquímetros e armazenar essas 
 informações para fins de fiscalização.
+
+## Tecnologias Utilizadas
+- **Java 17**
+- **Spring Boot**
+- **Spring Data JPA**
+- **Maven**
+- **Banco de Dados H2**
+- **Mockito** e **JUnit 5**
+- **Lombok**
+- **Swagger**
+
+## Histórico do Projeto  
+Este projeto foi originalmente desenvolvido no GitHub da Gabriela Ferraz.  
+Para acessar o histórico de commits original, visite o repositório:  
+🔗 [Repositório Original](https://github.com/GabiFerraz/Project-ParkingMeter)
 
 ## Funcionalidades
 A API permite:
@@ -23,16 +33,6 @@ e obter junto às informações do veículo.
 - **Atualizar** as informações de um veículo.
 - **Atualizar** o tempo de um estacionamento adicionando 1 hora no término, quando possível.
 - **Encerrar** automaticamente um estacionamento alterando o status dele para finalizado quando o tempo acabar.
-
-## Tecnologias Utilizadas
-- **Java 17**
-- **Spring Boot**
-- **Spring Data JPA**
-- **Maven**
-- **Banco de Dados H2**
-- **Mockito** e **JUnit 5**
-- **Lombok**
-- **Swagger**
 
 ## Estrutura do Projeto
 O projeto está organizado nas seguintes camadas:
