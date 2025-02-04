@@ -136,3 +136,8 @@ métodos chamados.
 ## Desenvolvedores:
 - Bruna Casagrande Zaramela - RM: 359536
 - Gabriela de Mesquita Ferraz - RM: 358745
+
+## Histórico do Projeto  
+Este projeto foi originalmente desenvolvido no GitHub da Gabriela Ferraz.  
+Para acessar o histórico de commits original, visite o repositório:  
+🔗 [Repositório Original](https://github.com/GabiFerraz/Project-ParkingMeter)
